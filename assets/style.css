@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+nav {
+  background-color: #11c5c5;
+  color: #fff;
+  font-size: 22px;
+}
+
+nav > .flex-container {
+  padding-right: 10px;
+  justify-content: right;
+  gap: 33rem;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -32,7 +44,7 @@
   display: inline;
 }
 
-.score-button {
+.button {
   background-color: #c3deeb;
   border: none;
   padding: 20px 25px;

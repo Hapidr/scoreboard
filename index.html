@@ -11,35 +11,43 @@
     <title>Scoreboard</title>
   </head>
   <body>
+    <nav>
+      <div class="flex-container">
+        <h1>Scoreboard</h1>
+        <button class="reset button">
+          <i class="fa-solid fa-rotate-left fa-2xl" style="color: #2c3d50"></i>
+        </button>
+      </div>
+    </nav>
     <section>
       <div class="grid-container">
         <div class="grid-item">
-          <h2>Team</h2>
-          <h1 class="score">11</h1>
+          <h2>Team A</h2>
+          <h1 class="score">0</h1>
           <div class="flex-container">
             <div>
-              <button class="score-button">
+              <button class="button" id="button">
                 <i class="fa-solid fa-minus fa-2xl" style="color: #2c3d50"></i>
               </button>
             </div>
             <div>
-              <button class="score-button">
+              <button class="button" id="button">
                 <i class="fa-solid fa-plus fa-2xl" style="color: #2c3d50"></i>
               </button>
             </div>
           </div>
         </div>
         <div class="grid-item">
-          <h2>Team</h2>
-          <h1 class="score">11</h1>
+          <h2>Team B</h2>
+          <h1 class="score">0</h1>
           <div class="flex-container">
             <div>
-              <button class="score-button">
+              <button class="button" id="button">
                 <i class="fa-solid fa-minus fa-2xl" style="color: #2c3d50"></i>
               </button>
             </div>
             <div>
-              <button class="score-button">
+              <button class="button" id="button">
                 <i class="fa-solid fa-plus fa-2xl" style="color: #2c3d50"></i>
               </button>
             </div>
@@ -48,4 +56,5 @@
       </div>
     </section>
   </body>
+  <script src="assets/script.js"></script>
 </html>
