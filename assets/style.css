@@ -53,3 +53,13 @@ nav > .flex-container {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  nav > .flex-container {
+    justify-content: space-evenly;
+    gap: 6rem;
+  }
+}
